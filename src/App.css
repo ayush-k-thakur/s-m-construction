@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+#header {
+  background-image: url(./assets//bg.jpg);
+}
+
+.serviceImg {
+  height: 575px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.653)),
+    url("./assets/serviceBG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  border-radius: 10px;
+}
+
+#floor {
+  /* height: 575px;
+  width: 100%; */
+  background: linear-gradient(rgba(0, 0, 0, 0.515), rgba(0, 0, 0, 0.422)),
+    url("./assets/floorPlan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  border-radius: 10px;
+}
+
+#videoDemo {
+  /* height: 375px;
+  width: 100%; */
+  background: linear-gradient(rgba(0, 0, 0, 0.515), rgba(0, 0, 0, 0.422)),
+    url("./assets/designDemo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  border-radius: 10px;
+}
